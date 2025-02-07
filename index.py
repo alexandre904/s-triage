@@ -62,7 +62,7 @@ decision_tree = {
 
 @app.route("/")
 def index():
-    return send_file("/content/templates/index.html")
+    return send_file("templates/index.html")
 
 @app.route("/chatbot", methods=["POST"])
 def chatbot():
