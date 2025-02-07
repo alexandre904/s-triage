@@ -100,3 +100,7 @@ img.bg{
     border-radius: 8px;
     width: 400px;
 }
+.block-responce{
+    display: flex;
+    justify-content: center;
+}
