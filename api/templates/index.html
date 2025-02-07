@@ -24,10 +24,10 @@
         <div class="button">
             <button id="noBtn" class="button-23" onclick="sendAnswer('non')">NON</button>
             <button id="yesBtn" class="button-23" role="button" onclick="sendAnswer('oui')">OUI</button>
-            <button id="restartBtn" class="button-23" onclick="restartChat()">RECOMMENCER</button>
+            <button id="restartBtn" class="button-23" onclick="restartChat()" style="display: none;">RECOMMENCER</button>
         </div>
     </div>
-    <p id="response"></p>
+    <p id="response" class="response"></p>
 </body>
 
 </html>
@@ -63,7 +63,7 @@
     }
 
     function restartChat() {
-        document.getElementById("question").innerText = "As-tu de la fièvre ?";
+        document.getElementById("question").innerText = "Le patient est il majeur ?";
         document.getElementById("response").innerText = "";
         document.getElementById("yesBtn").disabled = false;
         document.getElementById("noBtn").disabled = false;

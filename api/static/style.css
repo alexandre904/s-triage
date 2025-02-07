@@ -90,3 +90,12 @@ img.bg{
   cursor: not-allowed;
   opacity: 1;
 }
+
+.response{
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: larger;
+    background-color: #F7F7F7;
+    padding: 10px;
+    border-radius: 8px;
+}
